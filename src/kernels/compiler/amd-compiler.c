@@ -188,6 +188,7 @@ int compile(char *filename, char *buildparams)
         if (strstr(pbuf,"Dogs")) continue;
         if (strstr(pbuf,"Cats")) continue;
         if (strstr(pbuf,"Raccoons")) continue;
+        if (!strstr(pbuf,"Cayman") && !strstr(pbuf,"Tahiti")) continue;
 
 	char flags[1000];
 	char flags1[1000];
